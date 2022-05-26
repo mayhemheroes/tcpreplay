@@ -1,0 +1,5 @@
+project: rnshah9/tcpreplay
+target: tcpcapinfo
+
+cmds:
+  - cmd: /repo/src/tcpcapinfo @@
