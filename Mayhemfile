@@ -1,4 +1,4 @@
-project: rnshah9/tcpreplay
+project: tcpreplay
 target: tcpcapinfo
 
 cmds:
