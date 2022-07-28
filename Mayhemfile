@@ -2,4 +2,4 @@ project: tcpreplay
 target: tcpcapinfo
 
 cmds:
-  - cmd: /repo/src/tcpcapinfo @@
+  - cmd: /install/bin/tcpcapinfo @@
