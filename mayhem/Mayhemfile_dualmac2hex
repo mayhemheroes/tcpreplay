@@ -1,0 +1,8 @@
+project: tcpreplay
+target: dualmac2hex
+testsuite:
+  - file://mayhem/corpus
+
+cmds:
+  - cmd: /fuzz_dualmac2hex
+    libfuzzer: true

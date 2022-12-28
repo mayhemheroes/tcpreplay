@@ -59,7 +59,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_dualmac2hex
+          - mayhem/Mayhemfile_tcpcapinfo
 
     steps:
       - uses: actions/checkout@v3
