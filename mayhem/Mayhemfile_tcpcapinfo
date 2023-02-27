@@ -1,0 +1,5 @@
+project: tcpreplay
+target: tcpcapinfo
+
+cmds:
+  - cmd: /install/bin/tcpcapinfo @@
