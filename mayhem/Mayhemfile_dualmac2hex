@@ -1,0 +1,10 @@
+project: tcpreplay
+target: dualmac2hex
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/dualmac2hex/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_dualmac2hex
+    libfuzzer: true
